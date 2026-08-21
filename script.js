@@ -4,8 +4,8 @@ let student={
 };
 function getKeys(obj){
 	let ans=[]
-	for(let i of obj){
-		ans.push[i]
+	for (let i of Object.keys(obj)) {
+		ans.push(i);
 	}
 	return ans
 }
