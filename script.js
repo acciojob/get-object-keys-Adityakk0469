@@ -7,5 +7,6 @@ function getKeys(obj){
 	for(let i of obj){
 		ans.push[i]
 	}
+	return ans
 }
 console.log(getKeys(student))
